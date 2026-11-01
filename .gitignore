@@ -7,3 +7,6 @@ Thumbs.db
 
 # local preview output
 .serve/
+
+# generated submission archive (rebuild with the command in README)
+*.zip
