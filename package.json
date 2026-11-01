@@ -1,0 +1,19 @@
+{
+  "name": "lumen-and-lens-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Option A homepage mockup for a high-end e-commerce camera store — static HTML, token-driven CSS, no runtime dependencies.",
+  "homepage": "index.html",
+  "scripts": {
+    "serve": "python3 -m http.server 4173 --bind 0.0.0.0",
+    "qa": "node scripts/qa.mjs",
+    "images": "bash scripts/optimize-images.sh",
+    "export": "node scripts/export.mjs"
+  },
+  "devDependencies": {
+    "@sparticuz/chromium": "^129.0.0",
+    "puppeteer-core": "^23.0.0"
+  },
+  "keywords": ["mockup", "ecommerce", "camera-store", "homepage", "static-site"],
+  "license": "UNLICENSED"
+}
