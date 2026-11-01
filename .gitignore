@@ -1,0 +1,9 @@
+# dependencies (export/QA tooling only)
+node_modules/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# local preview output
+.serve/
